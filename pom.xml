@@ -49,9 +49,8 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.11</version>
                 <configuration>
-                    <imageName>${project.artifactId}</imageName>
+                    <imageName>jack/demo</imageName>
                     <imageTags>
-                        <imageTag>${project.version}</imageTag>
                         <imageTag>latest</imageTag>
                     </imageTags>
                     <dockerDirectory>src/main/docker</dockerDirectory>
